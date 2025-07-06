@@ -1,0 +1,63 @@
+body {
+    background-color: #c3daa4;
+    background-image: linear-gradient( #c3daa4 50% , white 50%);
+    display: flex;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.the
+{
+    color: #fff;
+    text-shadow: 2px 2px 0 #666;
+}
+
+.unofficial {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #666;
+    line-height: 1.0;
+
+}
+
+.studio {
+    font-size: 4.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #666;
+    line-height: 1.0;
+    font-family: 'chicle', cursive;
+}
+
+.ghibli {
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #666;
+    line-height: 1.0;
+    font-family: 'chicle', cursive;
+}
+
+.cookbook {
+    font-size: 3.2rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #666;
+    line-height: 1.0;
+    font-family: 'chicle', cursive;
+}
+
+.small-text {
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    color: #735e51;
+    margin-bottom: 10px;
+
+}
+
+.fact {
+    font-size: 3rem;
+    color: #a1c68c;
+    line-height: 1.3;
+}
+

@@ -1,0 +1,45 @@
+.home {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: transparent;
+    color: #7ec657;
+    border: 2px solid #7ec657;
+    border-radius: 1000px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.home::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 1000px;
+    background-color: #a1c68c;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.home:hover::after {
+    opacity: 1;
+}
+
+.home:hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

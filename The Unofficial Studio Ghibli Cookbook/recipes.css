@@ -1,0 +1,50 @@
+body {
+    background-image: url('images/b-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffdf6;
+    color: #333;
+    line-height: 1.6;
+}
+
+.recipe h2 {
+    font-size: 1.8em;
+    color: #5c4a3d;
+    margin-bottom: 0.5em;
+}
+
+#c1, #c2, #c3, #c4, #c5 {
+    background-color: rgb(255, 248, 236, 0.8);
+    border: 2px solid #f3e0c0;
+    border-radius: 15px;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.recipe ul {
+    list-style-type: circle;
+    padding-left: 1.5em;
+}
+
+.recipe li {
+    margin: 0.5em 0;
+}
+
+.recipe a {
+    text-decoration: none;
+    color: #7b4c3a;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+.recipe a:hover {
+    color: #b05f3c;
+    text-decoration: underline;
+}

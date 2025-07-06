@@ -1,0 +1,103 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fffdf4;
+    color: #2d2b28;
+}
+
+.recipe-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(255, 209, 102, 0.25);
+    line-height: 1.8;
+}
+
+.title {
+    font-size: 2.7rem;
+    color: #c0392b;
+    margin-bottom: 0;
+}
+
+.inspired {
+    font-style: italic;
+    color: #2980b9;
+    margin-bottom: 20px;
+}
+
+.about {
+    font-size: 1.15rem;
+    margin-bottom: 30px;
+    color: #3b3937;
+}
+
+.middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.ingredients {
+    flex: 1 1 45%;
+}
+
+.ingredients h2 {
+    color: #c0392b;
+    border-bottom: 2px dashed #ffeaa7;
+    margin-bottom: 10px;
+}
+
+.ingredients ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    color: #2f2d2a;
+}
+
+.image-box {
+    flex: 1 1 45%;
+    text-align: center;
+}
+
+.reference-image {
+    width: 100%;
+    max-width: 260px;
+    border-radius: 18px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.image-caption {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #d35400;
+    margin-top: 8px;
+}
+
+.instructions,
+.tips {
+    margin-top: 40px;
+}
+
+.instructions h2,
+.tips h2 {
+    color: #2980b9;
+    border-bottom: 2px dashed #ffeaa7;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.instructions ol,
+.tips ul {
+    padding-left: 20px;
+    color: #2d2a26;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid #ffd54f;
+    font-style: italic;
+    text-align: center;
+    color: #c0392b;
+}

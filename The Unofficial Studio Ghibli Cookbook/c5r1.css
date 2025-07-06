@@ -1,0 +1,103 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4fff8; /* soft ocean breeze */
+    color: #2d2735;
+}
+
+.recipe-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(230, 180, 240, 0.25); /* magical shimmer */
+    line-height: 1.8;
+}
+
+.title {
+    font-size: 2.7rem;
+    color: #9b59b6; /* playful lavender */
+    margin-bottom: 0;
+}
+
+.inspired {
+    font-style: italic;
+    color: #e06689; /* soft coral pink */
+    margin-bottom: 20px;
+}
+
+.about {
+    font-size: 1.15rem;
+    margin-bottom: 30px;
+    color: #4a3b59; /* dusty plum */
+}
+
+.middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.ingredients {
+    flex: 1 1 45%;
+}
+
+.ingredients h2 {
+    color: #e06689;
+    border-bottom: 2px dashed #d4f6e4; /* seafoam accent */
+    margin-bottom: 10px;
+}
+
+.ingredients ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    color: #3b3144;
+}
+
+.image-box {
+    flex: 1 1 45%;
+    text-align: center;
+}
+
+.reference-image {
+    width: 100%;
+    max-width: 260px;
+    border-radius: 18px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.image-caption {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #b66fa4; /* Ponyo dress pink */
+    margin-top: 8px;
+}
+
+.instructions,
+.tips {
+    margin-top: 40px;
+}
+
+.instructions h2,
+.tips h2 {
+    color: #9b59b6;
+    border-bottom: 2px dashed #d4f6e4;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.instructions ol,
+.tips ul {
+    padding-left: 20px;
+    color: #3d2f40;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid #c4f0d9;
+    font-style: italic;
+    text-align: center;
+    color: #8e5a9d;
+}

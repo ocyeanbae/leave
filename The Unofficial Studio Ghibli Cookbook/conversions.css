@@ -1,0 +1,51 @@
+
+body {
+    background-image: url('images/c-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'funnel display', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: #7ec657;
+}
+h2{
+    text-align: center;
+    color: #ffffff;
+}
+
+table {
+    width: 500px;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #d57c29;
+    color: #fdf6dd;
+    font-size: 1.1em;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f5f0;
+}
+button {
+    margin-left: 42%;
+    margin-right: 42%;
+}
